@@ -32,7 +32,7 @@ public static class WolverineExtensions
                 opts.Discovery.DisableConventionalDiscovery();
                 opts.Policies.DisableConventionalLocalRouting();
 
-                opts.PublishAllMessages().ToSqlServerQueue("inbound").TelemetryEnabled(true);
+                opts.PublishAllMessages().ToSqlServerQueue("inbound");
             }
             else
             {

@@ -6,8 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Host.UseWolverine("Sender", false);
 builder.Host.ApplyOaktonExtensions();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
