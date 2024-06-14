@@ -18,7 +18,11 @@ if (app.Environment.IsDevelopment())
 
 app.MapPost("/test/{id}", async (int id, IMessageBus bus) =>
     {
-        await bus.SendAsync(new MyCommand() { Id = id });
+        for (int i = 0; i < 5; i++)
+        {
+            await bus.SendAsync(new MyCommand() { Id = id + i});
+        
+        }
     })
     .WithName("Test")
     .WithOpenApi();
