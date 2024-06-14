@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolverine.Test.Sender", "Wolverine.Test.Sender\Wolverine.Test.Sender.csproj", "{BB9F77B0-85BC-4C12-AE3A-F7258200F5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolverine.Test.BackgroundProcessor", "Wolverine.Test.BackgroundProcessor\Wolverine.Test.BackgroundProcessor.csproj", "{A9194280-F906-40CC-866A-352A4C66B38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolverine.Test.Domain", "Wolverine.Test.Domain\Wolverine.Test.Domain.csproj", "{5391D596-7039-4181-BA1A-6FC07A401296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB9F77B0-85BC-4C12-AE3A-F7258200F5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9F77B0-85BC-4C12-AE3A-F7258200F5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9F77B0-85BC-4C12-AE3A-F7258200F5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9F77B0-85BC-4C12-AE3A-F7258200F5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9194280-F906-40CC-866A-352A4C66B38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9194280-F906-40CC-866A-352A4C66B38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9194280-F906-40CC-866A-352A4C66B38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9194280-F906-40CC-866A-352A4C66B38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5391D596-7039-4181-BA1A-6FC07A401296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5391D596-7039-4181-BA1A-6FC07A401296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5391D596-7039-4181-BA1A-6FC07A401296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5391D596-7039-4181-BA1A-6FC07A401296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
