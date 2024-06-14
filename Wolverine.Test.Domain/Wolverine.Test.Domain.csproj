@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="WolverineFx.EntityFrameworkCore" Version="2.13.0" />
+      <PackageReference Include="WolverineFx.SqlServer" Version="2.13.0" />
+    </ItemGroup>
+
+</Project>
